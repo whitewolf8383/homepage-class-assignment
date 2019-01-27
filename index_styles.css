@@ -1,0 +1,109 @@
+/* top section */
+#top_section{
+  background-color: rgb(0,75,0);
+  padding: 20px 10px 10px;
+}
+ .cs_button{
+   background-color: transparent;
+   border-color: gold;
+   border-radius: 40%;
+   color: white;
+   margin-left: 9%;
+   padding: 10px;
+ }
+
+ .cs_button:hover{
+   background-color: gold;
+   border-color: gold;
+   color: black;
+ }
+
+ .csu_button{
+   background-color: transparent;
+   border-color: white;
+   border-radius: 40%;
+   color: white;
+   margin-left: 30px;
+   padding: 10px;
+ }
+
+ .csu_button:hover{
+   background-color: white;
+   border-color: white;
+   color: black;
+ }
+
+ /* middle section */
+ #mid-section{
+   background-color: #e6ebfe;
+   padding-bottom: 100px;
+   text-align: center;
+ }
+
+ .name{
+   display: inline-block;
+   font-family: "Roboto Slab";
+   left: 10%;
+   position: absolute;
+ }
+
+ .img{
+   border-style: inherit;
+   display: inline-block;
+   left: 10%;
+   position: absolute;
+   top: 25vh;
+ }
+
+ .about-me{
+   color: black;
+   display: inline-block;
+   font-family: "Montserrat";
+   left: 28%;
+   position: absolute;
+   text-align: justify;
+   top: 22vh;
+   width: 40vw;
+ }
+
+.nav{
+  background-color: rgb(0,75,0);
+  bottom: 210px;
+  border-color: gold;
+  border-style: solid;
+  border-width: 3px;
+  color: white;
+  display: inline-block;
+  font-family: "Montserrat";
+  left: 35%;
+  padding: 0 10px;
+  position: relative;
+  text-align: left;
+  top: 5vh;
+}
+
+.nav h3{
+  font-family: "Roboto Slab";
+}
+
+.nav li a:visited{
+  color: white;
+}
+
+.nav li a:hover{
+  color: gold;
+}
+
+/* footer section */
+#bottom-section{
+  background-color: rgb(0,75,0);
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.bh3{
+  display: inline-block;
+  font-size: 10px;
+  position: relative;
+  left: 50px;
+}
