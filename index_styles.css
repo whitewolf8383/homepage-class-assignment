@@ -33,6 +33,11 @@
    color: black;
  }
 
+ .space{
+   display: inline-block;
+   visibility: hidden;
+ }
+
  /* middle section */
  #mid-section{
    background-color: #e6ebfe;
@@ -52,7 +57,7 @@
    display: inline-block;
    left: 10%;
    position: absolute;
-   top: 25vh;
+   top: 28vh;
  }
 
  .about-me{
@@ -62,7 +67,7 @@
    left: 28%;
    position: absolute;
    text-align: justify;
-   top: 22vh;
+   top: 25vh;
    width: 40vw;
  }
 
@@ -86,12 +91,62 @@
   font-family: "Roboto Slab";
 }
 
-.nav li a:visited{
+.nav li a:link{
   color: white;
+}
+
+.nav li a:visited{
+  color: gold;
 }
 
 .nav li a:hover{
   color: gold;
+}
+
+@media screen and (max-width: 1005px) {
+  #mid-section{
+    padding-bottom: 75vh;
+  }
+
+  .name{
+    left: 16%;
+  }
+
+  .img{
+    left: 16%;
+  }
+
+  .about-me{
+    left: 12%;
+    top: 70vh;
+  }
+
+  .nav{
+    left: 32%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  #mid-section{
+    padding-bottom: 125vh;
+  }
+
+  .name{
+    left: 30%;
+  }
+
+  .img{
+    left: 30%;
+  }
+
+  .about-me{
+    width: 350px;
+  }
+
+  .nav{
+    left: 4%;
+    top: 120vh;
+  }
 }
 
 /* footer section */
